@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registruj se</title>
+</head>
+<body>
+    <form action="register.php" method="GET">
+        <legend>Unesite Vase podatke: </legend>
+        <label for="ime"> Ime: </label>
+        <input type="text" name="ime"><br>
+        <label for="prezime"> Prezime: </label>
+        <input type="text" name="prezime"><br>
+        Pol:
+        <input type="radio" name="pol" value="m" > muski
+        <input type="radio" name="pol" value="z" > zenski<br>
+        <label for="godine">Godine: </label>
+        <input type="number" name="godine"><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" placeholder="primer@gmail.com"><br>
+        <label for="password">Password: </label>
+        <input type="password" name="password"><br>
+        <label for="password">Check password: </label>
+        <input type="password" name="password"><br>
+        Odaberite kurseve: 
+        <input type="checkbox" id="kurs1" value="Php" name="kurs[]">
+        <label for="kurs1">Php  </label>
+        <input type="checkbox" id="kurs2" value="MySQL" name="kurs[]">
+        <label for="kurs2">MySQL  </label>
+        <input type="checkbox" id="kurs3" value="Java Script" name="kurs[]">
+        <label for="kurs3">Java Script  </label>
+        <br>
+        <input type="submit" name="Sacuvaj">Sacuvaj</input>
+    </form>
+        
+   
+</body>
+</html>
